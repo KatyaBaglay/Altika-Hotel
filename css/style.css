@@ -1020,3 +1020,19 @@ footer label {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+@media screen and (max-width: 1500px) {
+    header {
+        height: 5vh;
+        line-height: 5vh;
+        padding: 0 10px;
+        position: fixed; /* Add this to fix the header */
+        top: 0; /* Add this to position it at the top */
+        width: 100%; /* Add this to make it full width */
+        background-color: #fff; /* Add a background color */
+        z-index: 1000; /* Ensure it stays above other elements */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+      }
+      header ul li a{
+        font-size: 13px;
+      }
+}
