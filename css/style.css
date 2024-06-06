@@ -1032,6 +1032,9 @@ footer label {
         z-index: 1000; /* Ensure it stays above other elements */
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
       }
+    header img{
+      width: 100px;
+    }
       header ul li a{
         font-size: 13px;
       }
